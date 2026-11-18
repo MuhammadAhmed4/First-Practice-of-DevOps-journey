@@ -1,6 +1,5 @@
 from flask import Flask, jsonify
 import socket
-import pyt
 
 app = Flask(__name__)
 
