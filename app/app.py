@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify(message="Hello from DevOps Project 2", hostname=socket.gethostname())
+    return jsonify(message="Hello from DevOps Project 1", hostname=socket.gethostname())
 
 
 @app.route("/health")
